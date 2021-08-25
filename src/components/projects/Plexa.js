@@ -4,7 +4,7 @@ import Background from '../Background';
 import Time from '../Time';
 import {ListGroup} from 'react-bootstrap';
 import LinkItem from '../LinkItem';
-import {FaMobileAlt} from 'react-icons/all';
+import {FaLinkedin, FaMobileAlt} from 'react-icons/all';
 
 export default function Plexa(props) {
     return (
@@ -21,6 +21,13 @@ export default function Plexa(props) {
                                         url="https://plexatech.github.io/"
                                         icon={<FaMobileAlt/>}>
                                         Promotional Site
+                                    </LinkItem>
+                                </ListGroup>
+                                <ListGroup variant="flush">
+                                    <LinkItem
+                                        url="https://www.linkedin.com/company/plexa-technologies"
+                                        icon={<FaLinkedin/>}>
+                                        LinkedIn Page
                                     </LinkItem>
                                 </ListGroup>
                             </div>

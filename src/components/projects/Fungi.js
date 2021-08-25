@@ -5,7 +5,7 @@ import Time from '../Time';
 import {ListGroup} from 'react-bootstrap';
 import LinkItem from '../LinkItem';
 import {FaBookOpen, FaGithub, FaTerminal} from 'react-icons/all';
-import {HammerCollabItem} from './HammerCollabItem';
+import {HammerCollabItem} from './items/HammerCollabItem';
 
 export default function Fungi(props) {
     return (

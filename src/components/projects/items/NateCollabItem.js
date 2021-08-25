@@ -1,17 +1,17 @@
 import {FaHandshake} from 'react-icons/all';
-import LinkItem from '../LinkItem';
+import LinkItem from '../../LinkItem';
 import React from 'react';
 
 const style = {
     opacity: .8,
 };
 
-export function HammerCollabItem() {
+export function NateCollabItem() {
     return (
         <LinkItem
-            url="https://arxiv.org/search/cs?searchtype=author&query=Hammer%2C+M+A"
+            url="https://natestgeorge.com/"
             icon={<span style={style}><FaHandshake/></span>}>
-            <span style={style}>Dr. Matthew Hammer</span>
+            <span style={style}>Nate St. George</span>
         </LinkItem>
     );
 }

@@ -5,7 +5,7 @@ import Time from '../Time';
 import {ListGroup} from 'react-bootstrap';
 import LinkItem from '../LinkItem';
 import {FaGithub, FaPlay} from 'react-icons/all';
-import {NateCollabItem} from './NateCollabItem';
+import {NateCollabItem} from './items/NateCollabItem';
 
 export default function Skiing(props) {
     return (
@@ -19,7 +19,7 @@ export default function Skiing(props) {
                         <div className="container pt-5">
                             <ListGroup variant="flush">
                                 <LinkItem
-                                    url="https://creative.colorado.edu/~ryva9966/skisim/"
+                                    url="https://rvanasa.itch.io/super-skiing"
                                     icon={<FaPlay/>}>
                                     Play Online
                                 </LinkItem>

@@ -14,7 +14,7 @@ export default function RimCities(props) {
                         heading={<>
                             <h2 className="display-4 text-center mt-4">RimCities</h2>
                             <h3 className="text-center">A procedural city generator.</h3>
-                            <h4 className="text-center text-warning mt-4 py-2" style={{background: '#0005'}}>Over 90,000 subscribers on Steam</h4>
+                            <h4 className="text-center text-warning mt-4 py-2" style={{background: '#0005'}}>Over 100,000 subscribers on Steam</h4>
                             <hr/>
                             <div className="container pt-5" style={{maxWidth: '60em'}}>
                                 <ListGroup variant="flush">

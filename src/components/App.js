@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {HashRouter, Route, Switch} from 'react-router-dom';
 import HomePage from './page/HomePage';
 import ProjectPage from './page/ProjectsPage';
 import StoryPage from './page/StoryPage';
@@ -11,7 +11,7 @@ import './App.scss';
 
 export default function App() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <ScrollToTop>
                 <Switch>
                     <Route exact path="/">
@@ -31,6 +31,6 @@ export default function App() {
                     </Route>
                 </Switch>
             </ScrollToTop>
-        </BrowserRouter>
+        </HashRouter>
     );
 };

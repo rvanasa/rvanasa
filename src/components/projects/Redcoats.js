@@ -19,7 +19,7 @@ export default function Redcoats(props) {
                         <div className="container pt-5" style={{maxWidth: '60em'}}>
                             <ListGroup variant="flush">
                                 <LinkItem
-                                    url="http://creative.colorado.edu/~ryva9966/redcoats/"
+                                    url="https://rvanasa.itch.io/cranky-redcoats"
                                     icon={<FaPlay/>}>
                                     Play Online
                                 </LinkItem>
