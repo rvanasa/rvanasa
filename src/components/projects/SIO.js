@@ -31,11 +31,11 @@ export default function SIO(props) {
                         <hr/>
                         <div className="container" style={{maxWidth: '60em'}}>
                             <ListGroup variant="flush">
-                                <LinkItem
-                                    url="http://schoolinone.herokuapp.com/"
-                                    icon={<FaMobileAlt/>}>
-                                    Live Webapp
-                                </LinkItem>
+                                {/*<LinkItem*/}
+                                {/*    url="http://schoolinone.herokuapp.com/"*/}
+                                {/*    icon={<FaMobileAlt/>}>*/}
+                                {/*    Live Webapp*/}
+                                {/*</LinkItem>*/}
                                 <LinkItem
                                     url="https://www.dcsdk12.org/about/our_district/news_archive/rock_canyon_wins_in_verizon_app_challenge"
                                     icon={<FaNewspaper/>}>

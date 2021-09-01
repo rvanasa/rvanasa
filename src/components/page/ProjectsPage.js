@@ -20,27 +20,27 @@ import Fungi from '../projects/Fungi';
 import Navigation from '../Navigation';
 
 const tags = {
-    all: 'Everything',
     favorite: 'Favorites',
     website: 'Webapps',
     competition: 'Competitions',
     game: 'Games',
     business: 'Businesses',
     research: 'Research',
+    all: 'Everything',
 };
 
 const projects = [
     [RimCities, [tags.favorite, tags.game]],
-    [ColdSpace, [tags.favorite]],
+    [ColdSpace, []],
     [Polymorph, [tags.favorite, tags.research]],
     [Vekta, [tags.game]],
-    [Redcoats, [tags.game]],
-    [Pure, [tags.favorite, tags.website]],
+    [Redcoats, [tags.favorite, tags.game]],
+    [Pure, [tags.website]],
     [FunQy, [tags.favorite, tags.research]],
     [Fungi, [tags.favorite, tags.competition, tags.research]],
-    [Plexa, [tags.business]],
+    [Plexa, [tags.favorite, tags.business]],
     [Storytime, [tags.game]],
-    [Skiing, [tags.game]],
+    [Skiing, [tags.favorite, tags.game]],
     [DeltaFund, [tags.website, tags.competition]],
     [FastCode, [tags.business, tags.website]],
     [SIO, [tags.favorite, tags.website, tags.competition]],
@@ -50,7 +50,7 @@ const projects = [
 ];
 
 export default function ProjectsPage() {
-    let [currentTag, setCurrentTag] = useState(tags.all/*tags.favorite*/);
+    let [currentTag, setCurrentTag] = useState(tags.favorite);
 
     return (
         <div>
@@ -62,7 +62,7 @@ export default function ProjectsPage() {
                     <div className="container-lg d-md-flex text-center flex-wrap">
                         {Object.values(tags).map((tag => (
                             <div key={tag}
-                                 className={`h5 flex-grow-1 clickable m-0 py-4 py-md-5 ${tag === currentTag ? 'text-info' : ''}`}
+                                 className={`h5 flex-grow-1 clickable m-0 py-4 py-md-5 ${tag === currentTag ? 'text-success font-weight-bold' : ''}`}
                                  style={tag === currentTag ? {background: '#0002'} : {}}
                                  onClick={() => setCurrentTag(tag)}>
                                 {tag}
