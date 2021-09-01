@@ -19,14 +19,14 @@ export default function Polymorph(props) {
                 <div className="container pt-5" style={{maxWidth: '60em'}}>
                     <ListGroup variant="flush">
                         <LinkItem
-                            url="https://colab.research.google.com/drive/1ik4qjJugiQ-C_FWRCHPPllADZuxWsMHS"
-                            icon={<FaPython/>}>
-                            Semantic Polymorphism in a Free Commutative Magma over &#8469;
-                        </LinkItem>
-                        <LinkItem
                             url="https://medium.com/@ryanvandersmith/semantic-polymorphism-explaining-abstract-concepts-using-buttons-tape-and-string-12e674949942?source=friends_link&sk=438556c384ff5690279c69cee7375618"
                             icon={<FaMedium/>}>
                             Explaining Semantic Polymorphism with Buttons and String
+                        </LinkItem>
+                        <LinkItem
+                            url="https://colab.research.google.com/drive/1ik4qjJugiQ-C_FWRCHPPllADZuxWsMHS"
+                            icon={<FaPython/>}>
+                            Semantic Polymorphism in a Free Commutative Magma over &#8469;
                         </LinkItem>
                     </ListGroup>
                 </div>

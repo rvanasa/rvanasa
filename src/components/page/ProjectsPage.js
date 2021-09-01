@@ -50,7 +50,7 @@ const projects = [
 ];
 
 export default function ProjectsPage() {
-    let [currentTag, setCurrentTag] = useState(tags.favorite);
+    let [currentTag, setCurrentTag] = useState(tags.all/*tags.favorite*/);
 
     return (
         <div>

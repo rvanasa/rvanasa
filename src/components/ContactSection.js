@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaEnvelopeOpen, FaGithub, FaLinkedin, FaStackOverflow, FaTwitter} from 'react-icons/all';
+import {FaEnvelopeOpen, FaGithub, FaLinkedin, FaMedium, FaStackOverflow, FaTwitter} from 'react-icons/all';
 
 const media = [{
     icon: FaGithub,
@@ -20,10 +20,10 @@ const media = [{
     color: 'primary',
     link: 'https://www.linkedin.com/in/ryan-vandersmith-b59135101/',
 }, {
-    icon: FaStackOverflow,
-    color: 'warning',
-    link: 'https://stackoverflow.com/users/6637407',
-    style: {opacity: .7},
+    icon: FaMedium,
+    color: 'light',
+    link: 'https://medium.com/@ryanvandersmith',
+    style: {opacity: .8},
 }];
 
 export default function ContactSection() {
