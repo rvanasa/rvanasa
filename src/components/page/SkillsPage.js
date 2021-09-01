@@ -3,7 +3,7 @@ import {
     FaAddressBook,
     FaAppStore,
     FaAward,
-	FaBookOpen,
+    FaBookOpen,
     FaCode,
     FaDesktop,
     FaGlobe,
@@ -12,9 +12,9 @@ import {
     FaMedal,
     FaMobileAlt,
     FaMoneyBillAlt,
-	FaQrcode,
+    FaQrcode,
     FaRegBuilding,
-	FaRegFlag,
+    FaRegFlag,
     FaRibbon,
     FaRunning,
     FaSchool,
@@ -37,7 +37,7 @@ const skills = [{
             parts: [{
                 name: 'React'
             }, {
-                name: 'Vue'
+                name: 'AngularJS'
             }, {
                 name: 'Webpack'
             }, {
@@ -55,13 +55,13 @@ const skills = [{
         }, {
             name: 'Misc.',
             parts: [{
+                name: 'TypeScript'
+            }, {
                 name: 'WebAssembly (Rust)'
             }, {
                 name: 'WebRTC'
             }, {
                 name: 'GraphQL'
-            }, {
-                name: 'TypeScript'
             }]
         }]
     }, {
@@ -146,7 +146,7 @@ const skills = [{
             parts: [{
                 name: 'Apache Airflow'
             }, {
-                name: 'Google Colab'
+                name: 'Jupyter / Colab'
             }, {
                 name: 'Anaconda'
             }]
@@ -154,6 +154,8 @@ const skills = [{
             name: 'Misc.',
             parts: [{
                 name: 'Pandas'
+            }, {
+                name: 'Astropy'
             }, {
                 name: 'Scrapy'
             }],
@@ -283,11 +285,11 @@ const skills = [{
         icon: FaBookOpen,
         toggle: true,
         parts: [{
+            name: '2017-2022: Boettcher Scholar',
+            icon: FaGlobe,
+        }, {
             name: '2017: CSM PATHS Scholar',
             icon: FaHardHat,
-        }, {
-            name: '2017: Boettcher Scholar',
-            icon: FaGlobe,
         }, {
             name: '2017: National AP Scholar',
             icon: FaSchool,

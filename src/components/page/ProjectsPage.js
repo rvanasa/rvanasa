@@ -31,13 +31,13 @@ const tags = {
 
 const projects = [
     [RimCities, [tags.favorite, tags.game]],
-    [ColdSpace, []],
-    [Polymorph, [tags.research]],
+    [ColdSpace, [tags.favorite]],
+    [Polymorph, [tags.favorite, tags.research]],
     [Vekta, [tags.game]],
     [Redcoats, [tags.game]],
     [Pure, [tags.favorite, tags.website]],
     [FunQy, [tags.favorite, tags.research]],
-    [Fungi, [tags.competition, tags.research]],
+    [Fungi, [tags.favorite, tags.competition, tags.research]],
     [Plexa, [tags.business]],
     [Storytime, [tags.game]],
     [Skiing, [tags.game]],
@@ -50,7 +50,7 @@ const projects = [
 ];
 
 export default function ProjectsPage() {
-    let [currentTag, setCurrentTag] = useState(tags.all);
+    let [currentTag, setCurrentTag] = useState(tags.favorite);
 
     return (
         <div>

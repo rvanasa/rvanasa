@@ -14,7 +14,7 @@ export default function Vekta(props) {
             <Background img="img/projects/vekta.jpg"
                         heading={<>
                             <h2 className="display-4 text-center mt-4">VEKTA</h2>
-                            <h3 className="text-center">A procedural space exploration game.</h3>
+                            <h3 className="text-center">Retro procedural space exploration.</h3>
                             <hr/>
                             <div className="container pt-5" style={{opacity: .6}}>
                                 <ListGroup variant="flush">
