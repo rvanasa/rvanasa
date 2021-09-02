@@ -4,7 +4,7 @@ import Background from '../Background';
 import Time from '../Time';
 import {ListGroup} from 'react-bootstrap';
 import LinkItem from '../LinkItem';
-import {FaMobileAlt, FaNewspaper} from 'react-icons/all';
+import {FaNewspaper} from 'react-icons/all';
 
 export default function SIO(props) {
     return (

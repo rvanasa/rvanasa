@@ -4,7 +4,7 @@ import Background from '../Background';
 import Time from '../Time';
 import {ListGroup} from 'react-bootstrap';
 import LinkItem from '../LinkItem';
-import {FaGithub, FaMobile, FaMobileAlt, FaPlay, FaYoutube} from 'react-icons/all';
+import {FaGithub, FaMobileAlt, FaYoutube} from 'react-icons/all';
 
 export default function ElementalX(props) {
     return (

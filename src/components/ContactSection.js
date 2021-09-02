@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaEnvelopeOpen, FaGithub, FaLinkedin, FaMedium, FaStackOverflow, FaTwitter} from 'react-icons/all';
+import {FaEnvelopeOpen, FaGithub, FaLinkedin, FaMedium, FaTwitter} from 'react-icons/all';
 
 const media = [{
     icon: FaGithub,

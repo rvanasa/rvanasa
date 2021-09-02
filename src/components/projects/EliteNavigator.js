@@ -4,7 +4,7 @@ import Background from '../Background';
 import Time from '../Time';
 import {ListGroup} from 'react-bootstrap';
 import LinkItem from '../LinkItem';
-import {FaGithub, FaLink, FaMobile, FaMobileAlt, FaPlay, FaSteam, FaYoutube} from 'react-icons/all';
+import {FaGithub, FaLink, FaMobileAlt} from 'react-icons/all';
 
 export default function EliteNavigator(props) {
     return (

@@ -4,17 +4,7 @@ import Background from '../Background';
 import Time from '../Time';
 import {ListGroup} from 'react-bootstrap';
 import LinkItem from '../LinkItem';
-import {
-    FaGithub,
-    FaLink,
-    FaMobile,
-    FaMobileAlt,
-    FaPlay,
-    FaSteam,
-    FaWordpress,
-    FaWordpressSimple,
-    FaYoutube
-} from 'react-icons/all';
+import {FaGithub, FaWordpressSimple} from 'react-icons/all';
 
 export default function QuantumXylophone(props) {
     return (

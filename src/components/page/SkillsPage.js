@@ -18,7 +18,8 @@ import {
     FaRibbon,
     FaRunning,
     FaSchool,
-    FaShoppingCart, FaWarehouse
+    FaShoppingCart,
+    FaWarehouse
 } from 'react-icons/all';
 import Skill from '../Skill';
 import Pivot from '../Pivot';
