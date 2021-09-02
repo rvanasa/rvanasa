@@ -4,7 +4,7 @@ import Background from '../Background';
 import Time from '../Time';
 import {ListGroup} from 'react-bootstrap';
 import LinkItem from '../LinkItem';
-import {FaGithub, FaReddit, FaSteam} from 'react-icons/all';
+import {FaGithub, FaLink, FaReddit, FaSteam} from 'react-icons/all';
 
 export default function RimCities(props) {
     return (
@@ -32,6 +32,11 @@ export default function RimCities(props) {
                                         url="https://github.com/rvanasa/rimworld-cities"
                                         icon={<FaGithub/>}>
                                         Source Code
+                                    </LinkItem>
+                                    <LinkItem
+                                        url="https://store.steampowered.com/app/294100/RimWorld/"
+                                        icon={<FaLink/>}>
+                                        RimWorld
                                     </LinkItem>
                                 </ListGroup>
                             </div>

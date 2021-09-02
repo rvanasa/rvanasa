@@ -18,18 +18,28 @@ import WebStar from '../projects/WebStar';
 import Plexa from '../projects/Plexa';
 import Fungi from '../projects/Fungi';
 import Navigation from '../Navigation';
+import ElementalX from '../projects/ElementalX';
+import TimeWinder from '../projects/TimeWinder';
+import EliteNavigator from '../projects/EliteNavigator';
+import QuantumXylophone from '../projects/QuantumXylophone';
+import Antibody from '../projects/Antibody';
 
 const tags = {
     favorite: 'Favorites',
+    all: 'Everything',
     website: 'Webapps',
     competition: 'Competitions',
     game: 'Games',
     business: 'Businesses',
     research: 'Research',
-    all: 'Everything',
 };
 
 const projects = [
+    [QuantumXylophone, []],
+    [ElementalX, [tags.game]],
+    [EliteNavigator, [tags.website, tags.game]],
+    [Antibody, [tags.research]],
+    [TimeWinder, []],
     [RimCities, [tags.favorite, tags.game]],
     [ColdSpace, []],
     [Polymorph, [tags.favorite, tags.research]],
