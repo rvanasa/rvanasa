@@ -13,7 +13,7 @@ export default function Antibody(props) {
             <Background img="img/projects/antibody.jpg"
                         heading={<>
                         <h2 className="display-4 text-center mt-4">Deep-Antibody</h2>
-                        <h3 className="text-center">An open-source mAb design workflow.</h3>
+                        <h3 className="text-center">Open-source mAb design resources.</h3>
                         <hr/>
                         <div className="container pt-5" style={{maxWidth: '60em'}}>
                             <ListGroup variant="flush">
