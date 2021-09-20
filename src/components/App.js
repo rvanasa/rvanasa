@@ -1,5 +1,5 @@
 import React from 'react';
-import {HashRouter, Route, Switch} from 'react-router-dom';
+import {Router, Route, Switch} from 'react-router-dom';
 import HomePage from './page/HomePage';
 import ProjectPage from './page/ProjectsPage';
 import StoryPage from './page/StoryPage';
@@ -9,9 +9,21 @@ import ContactPage from './page/ContactPage';
 
 import './App.scss';
 
+import {createHashHistory} from 'history';
+
+let history = createHashHistory();
+// let _createHref = history.createHref;
+// history.createHref = (location) => {
+//     let href = _createHref(location);
+//     if(href.endsWith('#/')) {
+//         href = href.slice(0, -2);
+//     }
+//     return href;
+// };
+
 export default function App() {
     return (
-        <HashRouter>
+        <Router history={history}>
             <ScrollToTop>
                 <Switch>
                     <Route exact path="/">
@@ -31,6 +43,6 @@ export default function App() {
                     </Route>
                 </Switch>
             </ScrollToTop>
-        </HashRouter>
+        </Router>
     );
 };

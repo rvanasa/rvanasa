@@ -51,6 +51,9 @@ const story = [{
     name: 'Career',
     style: 'bg-success text-white',
     items: [{
+        icon: FaStar,
+        text: '<b>6 years</b> as a freelance consultant (full-stack web development)',
+    }, {
         icon: FaSuitcase,
         text: '<b>4 years</b> interning at Douglas County School District (senior level)',
     }, {
@@ -59,9 +62,6 @@ const story = [{
     }, {
         icon: FaUsers,
         text: 'Provided mentorship and guidance to intern teams',
-    }, {
-        icon: FaStar,
-        text: '<b>5 years</b> as a freelance consultant (full-stack web development)',
     }],
 }, {
     name: 'Today',
@@ -107,7 +107,8 @@ export default function StoryPage() {
                         <h1 className="text-center text-thin text-glow">Let's start from the beginning.</h1>
                         <hr/>
                     </div>
-                    <div className="flex-grow-1" style={{ background: 'url(img/baby.jpg) center 20%', backgroundSize: 'cover'}}/>
+                    <div className="flex-grow-1"
+                         style={{background: 'url(img/baby.jpg) center 20%', backgroundSize: 'cover'}}/>
                 </div>
             </Sticky>
             <div style={{opacity: .95}}>

@@ -15,14 +15,15 @@
     "bootswatch": "^4.4.1",
     "customize-cra": "^0.9.1",
     "customize-cra-react-refresh": "^1.0.1",
+    "gh-pages": "^2.2.0",
+    "history": "^4.10.1",
     "node-sass": "^4.13.1",
     "react-app-rewired": "^2.1.5",
     "react-bootstrap": "^1.0.0-beta.16",
     "react-icons": "^3.9.0",
     "react-parallax": "^3.0.3",
     "react-router-dom": "^5.1.2",
-    "react-stickynode": "^2.1.1",
-    "gh-pages": "^2.2.0"
+    "react-stickynode": "^2.1.1"
   },
   "scripts": {
     "start": "react-app-rewired start",
