@@ -18,7 +18,7 @@ export default function ElementalX(props) {
                         <div className="container pt-5" style={{maxWidth: '60em'}}>
                             <ListGroup variant="flush">
                                 <LinkItem
-                                    url="https://rvanasa.github.io/elemental-x/"
+                                    url="https://ryanvandersmith.com/elemental-x/"
                                     icon={<FaMobileAlt/>}>
                                     Play Online
                                 </LinkItem>

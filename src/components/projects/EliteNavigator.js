@@ -18,7 +18,7 @@ export default function EliteNavigator(props) {
                         <div className="container pt-5" style={{maxWidth: '60em'}}>
                             <ListGroup variant="flush">
                                 <LinkItem
-                                    url="https://rvanasa.github.io/elite-navigator/"
+                                    url="https://ryanvandersmith.com/elite-navigator/"
                                     icon={<FaMobileAlt/>}>
                                     Online Webapp
                                 </LinkItem>

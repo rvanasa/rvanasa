@@ -18,7 +18,7 @@ export default function TimeWinder(props) {
                         <div className="container pt-5" style={{maxWidth: '60em'}}>
                             <ListGroup variant="flush">
                                 <LinkItem
-                                    url="https://rvanasa.github.io/time-winder/"
+                                    url="https://ryanvandersmith.com/time-winder/"
                                     icon={<FaPlay/>}>
                                     Play Online
                                 </LinkItem>

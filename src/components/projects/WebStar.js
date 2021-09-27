@@ -19,7 +19,7 @@ export default function WebStar(props) {
                                 <div className="container pt-5">
                                     <ListGroup variant="flush">
                                         <LinkItem
-                                            url="https://rvanasa.github.io/webstar/"
+                                            url="https://ryanvandersmith.com/webstar/"
                                             icon={<FaMobileAlt/>}>
                                             Promotional Website
                                         </LinkItem>

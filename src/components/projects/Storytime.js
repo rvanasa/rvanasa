@@ -19,7 +19,7 @@ export default function Storytime(props) {
                             <div className="container pt-5">
                                 <ListGroup variant="flush">
                                     <LinkItem
-                                        url="https://rvanasa.github.io/storytime"
+                                        url="https://ryanvandersmith.com/storytime"
                                         icon={<FaPlay/>}>
                                         Play Online
                                     </LinkItem>

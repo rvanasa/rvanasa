@@ -20,7 +20,7 @@ export default function ColdSpace(props) {
                                 <hr/>
                                 <div style={{background: '#11152288'}}>
                                     <div className="text-center" style={{height: '50vh'}}>
-                                        <a href="https://rvanasa.github.io/cold-space" target="_blank"
+                                        <a href="https://ryanvandersmith.com/cold-space" target="_blank"
                                            rel="noopener noreferrer">
                                             <Button variant="outline-light rounded-circle clickable cold-space-planet"/>
                                         </a>
