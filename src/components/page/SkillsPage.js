@@ -425,6 +425,8 @@ const skills = [{
                 name: 'Best in State (Colorado)',
             }, {
                 name: 'Best in Region (U.S. West)',
+            }, {
+                name: 'National Finalist',
             }],
         }, {
             name: '2013: Second Degree Black Belt',
