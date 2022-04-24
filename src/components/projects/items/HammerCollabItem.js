@@ -1,4 +1,4 @@
-import {FaHandshake} from 'react-icons/all';
+import {FaHandshake} from 'react-icons/fa';
 import LinkItem from '../../LinkItem';
 import React from 'react';
 

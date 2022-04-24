@@ -16,7 +16,7 @@ export default function Background(props) {
         //     {props.children}
         // </Parallax>
         <div className="bg-img" style={{backgroundImage: `url(${props.img})`, backgroundColor: props.color}}>
-            <div className="h-100 mx-auto pt-4" style={{background: 'rgba(0,0,0,.2)', maxWidth: '600px'}}>
+            <div className="h-100 mx-auto pt-4" style={{background: 'rgba(0,0,0,.4)', maxWidth: '600px'}}>
                 <div>{props.heading}</div>
             </div>
             {props.children}

@@ -4,7 +4,7 @@ import Background from '../Background';
 import Time from '../Time';
 import {ListGroup} from 'react-bootstrap';
 import LinkItem from '../LinkItem';
-import {FaLinkedin, FaMobileAlt} from 'react-icons/all';
+import {FaLinkedin, FaMobileAlt} from 'react-icons/fa';
 
 export default function Plexa(props) {
     return (

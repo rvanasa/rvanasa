@@ -4,7 +4,7 @@ import Background from '../Background';
 import Time from '../Time';
 import {ListGroup} from 'react-bootstrap';
 import LinkItem from '../LinkItem';
-import {FaGithub, FaMedium, FaMobileAlt} from 'react-icons/all';
+import {FaGithub, FaMedium, FaMobileAlt} from 'react-icons/fa';
 
 export default function Vekta(props) {
     return (

@@ -1,5 +1,6 @@
 import React from 'react';
-import {FaEnvelopeOpen, FaGithub, FaLinkedin, FaMedium, FaTwitter} from 'react-icons/all';
+import {FaEnvelopeOpen, FaGithub, FaLinkedin, FaMedium, FaTwitter} from 'react-icons/fa';
+import classNames from 'classnames';
 
 const media = [{
     icon: FaGithub,
@@ -15,6 +16,7 @@ const media = [{
     icon: FaEnvelopeOpen,
     color: 'success',
     link: 'mailto:ryanvandersmith@gmail.com',
+    mobileOnly: true,
 }, {
     icon: FaLinkedin,
     color: 'primary',
@@ -30,19 +32,23 @@ export default function ContactSection() {
     return (
         <div className="story-page py-4" style={{background: '#0005'}}>
             <div className="text-center">
-                <img style={{width: '80%', maxWidth: '450px'}} src={'img/profile.jpg'} alt=""/>
+                <img style={{width: '80%', maxWidth: 450}} src={'img/profile.jpg'} alt=""/>
             </div>
             <div className="text-center px-5">
                 <hr/>
-                <h1 className="text-thin text-light py-2">Ryan Vandersmith</h1>
+                <h1 className="text-thin text-light py-2 mb-0">Ryan Vandersmith</h1>
+                <div className="h4 text-success mb-4">
+                    ryanvandersmith@gmail.com
+                </div>
                 <div className="container">
                     {media.map(m => (
-                        <a key={m.link}
-                           className={`btn btn-lg px-3 py-3 mb-3 mx-2 btn-outline-${m.color || 'dark'} text-${m.color || 'dark'}`}
-                           style={{borderRadius: '50% !important', ...m.style}}
-                           href={m.link}
-                           target="_blank"
-						   rel="noopener noreferrer">
+                        <a
+                            key={m.link}
+                            className={classNames(`btn btn-lg px-3 py-3 mb-3 mx-2 btn-outline-${m.color || 'dark'}`, m.mobileOnly && 'd-md-none')}
+                            style={{borderRadius: '50% !important', ...m.style}}
+                            href={m.link}
+                            target="_blank"
+                            rel="noopener noreferrer">
                             <m.icon size="1.5em"/>
                         </a>
                     ))}

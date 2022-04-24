@@ -4,7 +4,7 @@ import Background from '../Background';
 import Time from '../Time';
 import {ListGroup} from 'react-bootstrap';
 import LinkItem from '../LinkItem';
-import {FaMedium, FaPython} from 'react-icons/all';
+import {FaMedium, FaPython} from 'react-icons/fa';
 
 export default function Polymorph(props) {
     return (

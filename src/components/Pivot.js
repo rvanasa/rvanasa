@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaAngleDoubleDown, FaAngleDoubleLeft, FaAngleDoubleRight} from 'react-icons/all';
+import {FaAngleDoubleDown, FaAngleDoubleLeft, FaAngleDoubleRight} from 'react-icons/fa';
 
 import './Pivot.scss';
 import {Link} from 'react-router-dom';
@@ -8,14 +8,14 @@ export default function Pivot(props) {
     return (
         <>
             {props.left && (
-                    <Link to={props.left.link} className="position-absolute p-5 text-left text-white clickable fade-in"
+                    <Link to={props.left.link} className="position-absolute p-5 text-start text-white clickable fade-in"
                           style={{left: 0}}>
                         <h3>{props.left.name}</h3>
                         <FaAngleDoubleLeft size="2em"/>
                     </Link>
             )}
             {props.right && (
-                <Link to={props.right.link} className="position-absolute p-5 text-right text-white clickable fade-in"
+                <Link to={props.right.link} className="position-absolute p-5 text-end text-white clickable fade-in"
                       style={{right: 0}}>
                     <h3>{props.right.name}</h3>
                     <FaAngleDoubleRight size="2em"/>

@@ -4,7 +4,7 @@ import Background from '../Background';
 import Time from '../Time';
 import {ListGroup} from 'react-bootstrap';
 import LinkItem from '../LinkItem';
-import {FaGithub, FaMedium, FaReddit, FaTerminal} from 'react-icons/all';
+import {FaGithub, FaMedium, FaReddit, FaTerminal} from 'react-icons/fa';
 
 export default function FunQy(props) {
     return (

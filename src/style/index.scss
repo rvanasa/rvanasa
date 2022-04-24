@@ -1,19 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Kanit:200,400|Assistant:200&display=swap');
-
-$font-family-sans-serif: 'Kanit', sans-serif;
-$headings-font-family: 'Assistant', sans-serif;
-$headings-font-weight: 200;
-
-$spacer: 1em;
-
-//$primary: #7D61C8;
-//$secondary: #ffffff;
-//$light: #f1f1f1;
-//$dark: #000000;
-
-@import '../../node_modules/bootswatch/dist/darkly/variables';
-@import 'mixins/bootstrap';
-@import '../../node_modules/bootswatch/dist/darkly/bootswatch';
+@import '~bootswatch/dist/darkly/variables';
+@import "mixins/variables";
+@import '~bootstrap/scss/bootstrap';
+@import '~bootswatch/dist/darkly/bootswatch';
 
 @import "mixins/scrollbar";
 @import "mixins/blur";
@@ -34,8 +22,8 @@ h3 {
   letter-spacing: 2px;
 }
 
-h4 {
-  font-weight: 600;
+h4, h5 {
+  font-weight: normal;
 }
 
 hr {
@@ -60,15 +48,17 @@ a {
 
 .clickable {
   cursor: pointer;
-  transition: .2s ease-out;
+  transition: .2s ease-in-out;
   transition-property: color, background, opacity;
+  user-select: none;
 }
 
 .clickable:hover {
-  transition: .05s ease-out;
+  transition: .08s ease-out;
   transform: scaleX(1.05);
 }
 
 ::selection {
-  background: #AAA;
+  background: #000A;
+  color: #FFF;
 }

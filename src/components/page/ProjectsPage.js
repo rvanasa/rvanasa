@@ -23,18 +23,21 @@ import TimeWinder from '../projects/TimeWinder';
 import EliteNavigator from '../projects/EliteNavigator';
 import QuantumXylophone from '../projects/QuantumXylophone';
 import Antibody from '../projects/Antibody';
+import Blocks from '../projects/Blocks';
+import classNames from 'classnames';
 
 const tags = {
     favorite: 'Favorites',
-    all: 'Everything',
     website: 'Webapps',
     competition: 'Competitions',
     game: 'Games',
     business: 'Businesses',
     research: 'Research',
+    all: 'Everything',
 };
 
 const projects = [
+    [Blocks, [tags.favorite, tags.website]],
     [QuantumXylophone, []],
     [ElementalX, [tags.game]],
     [EliteNavigator, [tags.website, tags.game]],
@@ -44,7 +47,7 @@ const projects = [
     [ColdSpace, []],
     [Polymorph, [tags.favorite, tags.research]],
     [Vekta, [tags.game]],
-    [Redcoats, [tags.favorite, tags.game]],
+    [Redcoats, [tags.game]],
     [Pure, [tags.website]],
     [FunQy, [tags.favorite, tags.research]],
     [Fungi, [tags.favorite, tags.competition, tags.research]],
@@ -65,16 +68,18 @@ export default function ProjectsPage() {
     return (
         <div>
             <div className="bg-img" style={{backgroundImage: 'url(img/abstract.jpg)'}}>
-                <Pivot title={['Timeline', 'Portfolio']} name caret background={'#0003'}
-                       left={{name: 'Skills', link: '/skills'}} right={{name: 'Contact', link: '/contact'}}/>
+                <Pivot
+                    title={['Timeline', 'Portfolio']} name caret background={'#0003'}
+                    left={{name: 'Skills', link: '/skills'}} right={{name: 'Contact', link: '/contact'}}/>
                 <div className="divider bg-light"/>
-                <div style={{background: '#111E'}}>
+                <div className="text-dark" style={{background: '#FFFE'}}>
                     <div className="container-lg d-md-flex text-center flex-wrap">
                         {Object.values(tags).map((tag => (
-                            <div key={tag}
-                                 className={`h5 flex-grow-1 clickable m-0 py-4 py-md-5 ${tag === currentTag ? 'text-success font-weight-bold' : ''}`}
-                                 style={tag === currentTag ? {background: '#0002'} : {}}
-                                 onClick={() => setCurrentTag(tag)}>
+                            <div
+                                key={tag}
+                                className={classNames(`h5 flex-grow-1 clickable m-0 py-4 py-md-5`, tag === currentTag && 'text-success')}
+                                style={tag === currentTag ? {background: '#FFF2', fontWeight: 'bold'} : {}}
+                                onClick={() => setCurrentTag(tag)}>
                                 {tag}
                             </div>
                         )))}

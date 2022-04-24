@@ -4,7 +4,7 @@ import Background from '../Background';
 import Time from '../Time';
 import {ListGroup} from 'react-bootstrap';
 import LinkItem from '../LinkItem';
-import {FaChalkboard} from 'react-icons/all';
+import {FaChalkboard} from 'react-icons/fa';
 
 export default function FurryFriends(props) {
     return (

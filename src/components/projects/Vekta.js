@@ -4,7 +4,7 @@ import Background from '../Background';
 import Time from '../Time';
 import {ListGroup} from 'react-bootstrap';
 import LinkItem from '../LinkItem';
-import {FaGithub} from 'react-icons/all';
+import {FaGithub} from 'react-icons/fa';
 import {NateCollabItem} from './items/NateCollabItem';
 
 export default function Vekta(props) {

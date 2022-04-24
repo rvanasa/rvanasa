@@ -4,7 +4,7 @@ import Background from '../Background';
 import Time from '../Time';
 import {ListGroup} from 'react-bootstrap';
 import LinkItem from '../LinkItem';
-import {FaGithub, FaLink, FaMobileAlt} from 'react-icons/all';
+import {FaGithub, FaLink, FaMobileAlt} from 'react-icons/fa';
 
 export default function EliteNavigator(props) {
     return (
@@ -20,7 +20,7 @@ export default function EliteNavigator(props) {
                                 <LinkItem
                                     url="https://ryanvandersmith.com/elite-navigator/"
                                     icon={<FaMobileAlt/>}>
-                                    Online Webapp
+                                    Mobile Webapp
                                 </LinkItem>
                                 <LinkItem
                                     url="https://github.com/rvanasa/elite-navigator"

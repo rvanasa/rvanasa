@@ -9,15 +9,15 @@ import {
     FaCoffee,
     FaCubes,
     FaDropbox,
-    FaGithubAlt,
+    FaGithub,
     FaLanguage,
     FaMap,
     FaMobileAlt,
     FaSlack,
     FaStar,
     FaSuitcase,
-    FaUsers
-} from 'react-icons/all';
+    FaUsers,
+} from 'react-icons/fa';
 import Sticky from 'react-stickynode';
 import Navigation from '../Navigation';
 
@@ -72,7 +72,7 @@ const story = [{
         text: '<b>Progressive Web App</b> development',
         footnote: 'React, Bootstrap, Sass, Node.js, Express, Webpack, Workbox, MongoDB, PostgreSQL',
     }, {
-        icon: FaGithubAlt,
+        icon: FaGithub,
         iconClass: 'text-info',
         text: 'Agile & modern software engineering',
         footnote: 'Lean development, Git, continuous integration, release management, virtualization',
@@ -85,20 +85,21 @@ const story = [{
         icon: FaCode,
         iconClass: 'text-warning',
         text: 'Modern <b>multi-paradigm</b> languages & frameworks',
-        footnote: 'Strong background in Rust and high-performance functional programming',
+        footnote: 'Strong background in Rust and high-performance systems programming',
     }, {
         icon: FaSlack,
         iconClass: 'text-danger',
         text: 'Communicating to <b>technical</b> & <b>business</b> audiences',
-        footnote: '(Probably worth emphasizing)',
+        footnote: 'Probably worth emphasizing',
     }],
 }];
 
 export default function StoryPage() {
     return (
         <div className="bg-img" style={{backgroundImage: 'url(img/stairs.jpg)'}}>
-            <Pivot title={['A', 'Story']} name caret background={'#0003'}
-                   left={{name: 'Home', link: '/'}} right={{name: 'Skills', link: '/skills'}}/>
+            <Pivot
+                title={['A', 'Story']} name caret background={'#0003'}
+                left={{name: 'Home', link: '/'}} right={{name: 'Skills', link: '/skills'}}/>
             <div className="divider bg-info"/>
             <Sticky>
                 <div className="d-flex flex-column" style={{height: '100vh'}}>
@@ -107,14 +108,15 @@ export default function StoryPage() {
                         <h1 className="text-center text-thin text-glow">Let's start from the beginning.</h1>
                         <hr/>
                     </div>
-                    <div className="flex-grow-1"
-                         style={{background: 'url(img/baby.jpg) center 20%', backgroundSize: 'cover'}}/>
+                    <div
+                        className="flex-grow-1"
+                        style={{background: 'url(img/baby.jpg) center 20%', backgroundSize: 'cover'}}/>
                 </div>
             </Sticky>
             <div style={{opacity: .95}}>
                 {story.map(category => (
                     <Sticky key={category.name}>
-                        <div className={`container py-5 text-center text-lg-left ${category.style}`}>
+                        <div className={`container py-5 text-center text-lg-start ${category.style}`}>
                             <h1 className="text-thin px-4 mb-3">{category.name}</h1>
                             <ListGroup variant="flush" className="noselect">
                                 {category.items.map(item => (
@@ -122,12 +124,12 @@ export default function StoryPage() {
                                         <div className="w-100">
                                             <h3 className="text-thin pt-2 d-inline">
                                         <span
-                                            className={`my-2 my-lg-0 pr-3 mx-auto mx-lg-0 d-block d-lg-inline ${item.iconClass}`}>
+                                            className={`my-2 my-lg-0 pe-3 mx-auto mx-lg-0 d-block d-lg-inline ${item.iconClass}`}>
                                             <item.icon/>
                                         </span>
                                                 <span dangerouslySetInnerHTML={{__html: item.text}}/>
                                             </h3>
-                                            <h5 className="text-muted ml-lg-5 mt-3 mt-md-0">{item.footnote}</h5>
+                                            <h5 className="text-muted ms-lg-5 mt-3 mt-md-0">{item.footnote}</h5>
                                         </div>
                                     </ListGroupItem>
                                 ))}

@@ -4,7 +4,7 @@ import Background from '../Background';
 import Time from '../Time';
 import {ListGroup} from 'react-bootstrap';
 import LinkItem from '../LinkItem';
-import {FaPlay} from 'react-icons/all';
+import {FaPlay} from 'react-icons/fa';
 
 export default function Redcoats(props) {
     return (
