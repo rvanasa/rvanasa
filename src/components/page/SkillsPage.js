@@ -133,6 +133,15 @@ const skills = [{
         icon: FaPython,
         toggle: true,
         parts: [{
+            name: 'High-Performance',
+            parts: [{
+                name: 'NumPy / SciPy',
+            }, {
+                name: 'Pandas / Modin',
+            }, {
+                name: 'Cython / Numba',
+            }],
+        }, {
             name: 'Machine Learning',
             parts: [{
                 name: 'Libraries',
@@ -178,8 +187,6 @@ const skills = [{
         }, {
             name: 'Misc.',
             parts: [{
-                name: 'NumPy / SciPy / Pandas',
-            }, {
                 name: 'Scrapy',
             }, {
                 name: 'Astropy',
