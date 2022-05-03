@@ -51,9 +51,9 @@ const skills = [{
             parts: [{
                 name: 'React',
             }, {
-                name: 'AngularJS',
+                name: 'Gatsby',
             }, {
-                name: 'Webpack',
+                name: 'AngularJS',
             }, {
                 name: 'Workbox',
             }],
@@ -62,7 +62,11 @@ const skills = [{
             parts: [{
                 name: 'Bootstrap',
             }, {
-                name: 'Material Design',
+                name: 'Tailwind',
+            }, {
+                name: 'Material UI',
+            }, {
+                name: 'Styled-Components',
             }, {
                 name: 'Sass',
             }],
@@ -87,6 +91,8 @@ const skills = [{
             parts: [{
                 name: 'Express',
             }, {
+                name: 'Webpack',
+            }, {
                 name: 'Socket.io',
             }, {
                 name: 'Passport',
@@ -105,7 +111,9 @@ const skills = [{
             parts: [{
                 name: 'Google APIs',
             }, {
-                name: 'Universal Analytics',
+                name: 'Google Analytics',
+            }, {
+                name: 'Stripe',
             }, {
                 name: 'Braintree',
             }],
@@ -121,11 +129,9 @@ const skills = [{
             parts: [{
                 name: 'TensorFlow.js',
             }, {
-                name: 'Lighthouse',
-            }, {
                 name: 'LibP2P',
             }, {
-                name: 'Ethereum',
+                name: 'Ethereum Web3',
             }],
         }],
     }, {
@@ -140,6 +146,33 @@ const skills = [{
                 name: 'Pandas / Modin',
             }, {
                 name: 'Cython / Numba',
+            }],
+        }, {
+            name: 'Visualization',
+            parts: [{
+                name: 'Seaborn',
+            }, {
+                name: 'Altair',
+            }, {
+                name: 'Folium',
+            }],
+        }, {
+            name: 'Environments',
+            parts: [{
+                name: 'Airflow',
+            }, {
+                name: 'Jupyter',
+            }, {
+                name: 'Anaconda',
+            }],
+        }, {
+            name: 'Natural Language Processing',
+            parts: [{
+                name: 'NLTK',
+            }, {
+                name: 'SpaCy',
+            }, {
+                name: 'Flair',
             }],
         }, {
             name: 'Machine Learning',
@@ -165,24 +198,6 @@ const skills = [{
                 }, {
                     name: 'BERT',
                 }],
-            }],
-        }, {
-            name: 'Natural Language Processing',
-            parts: [{
-                name: 'NLTK',
-            }, {
-                name: 'SpaCy',
-            }, {
-                name: 'Flair',
-            }],
-        }, {
-            name: 'Environments',
-            parts: [{
-                name: 'Airflow',
-            }, {
-                name: 'Jupyter',
-            }, {
-                name: 'Anaconda',
             }],
         }, {
             name: 'Misc.',
