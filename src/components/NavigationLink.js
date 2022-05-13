@@ -8,7 +8,7 @@ export default function NavigationLink(props) {
         <Link className={`clickable text-center ${props.to === pathname ? 'text-info' : 'text-muted'}`}
               style={{color: props.color, background: props.background, flexGrow: 1, flexBasis: 0}}
               to={props.to}>
-            <h2 className="mb-0 px-3 py-5">
+            <h2 className="mb-0 px-3 py-4 py-md-5">
                 {props.children}
             </h2>
         </Link>

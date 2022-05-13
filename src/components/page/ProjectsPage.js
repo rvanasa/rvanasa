@@ -73,7 +73,7 @@ export default function ProjectsPage() {
                     left={{name: 'Skills', link: '/skills'}} right={{name: 'Contact', link: '/contact'}}/>
                 <div className="divider bg-light"/>
                 <div className="text-dark" style={{background: '#FFFE'}}>
-                    <div className="container-lg d-md-flex text-center flex-wrap">
+                    <div className="container-lg d-md-flex text-center flex-wrap py-2 py-md-0">
                         {Object.values(tags).map((tag => (
                             <div
                                 key={tag}
