@@ -246,7 +246,7 @@ const skills = [{
             parts: [{
                 name: 'AWS Lambda / Cloud Functions',
             }, {
-                name: 'Compute Engine',
+                name: 'GCP Compute Engine',
             }, {
                 name: 'Heroku',
             }],
@@ -255,9 +255,9 @@ const skills = [{
             parts: [{
                 name: 'Jenkins',
             }, {
-                name: 'GitHub Actions',
-            }, {
                 name: 'Chef',
+            }, {
+                name: 'GitHub Actions',
             }],
         }, {
             name: 'Misc.',
@@ -307,8 +307,6 @@ const skills = [{
             parts: [{
                 name: 'DFINITY Foundation',
             }, {
-                name: 'Gary Oertli',
-            }, {
                 name: 'FBLA Colorado',
             }, {
                 name: 'Galway Aviation',
@@ -321,6 +319,10 @@ const skills = [{
         parts: [{
             name: '2018',
             parts: [{
+                name: 'Research w/ Dr. Matthew Hammer',
+            }, {
+                name: 'Adapton (incremental computing)',
+            }, {
                 name: 'Language compiler design',
             }, {
                 name: 'Full-stack web application',
