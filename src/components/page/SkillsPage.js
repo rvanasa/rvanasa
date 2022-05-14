@@ -38,6 +38,7 @@ import Pivot from '../Pivot';
 import {Col, Row} from 'react-bootstrap';
 import Navigation from '../Navigation';
 import {Link} from 'react-router-dom';
+import {SKILLS_IMAGE} from '../../services/imagePreloadService';
 
 const skills = [{
     name: 'Technologies',
@@ -469,7 +470,7 @@ export default function SkillsPage(props) {
     }
 
     return (
-        <div className="bg-img" style={{backgroundImage: 'url(img/city.jpg)'}}>
+        <div className="bg-img" style={{backgroundImage: `url(${SKILLS_IMAGE})`}}>
             <Pivot
                 title={['Skills', '&', 'Achievements']} name caret
                 left={{name: 'Story', link: '/story'}} right={{name: 'Projects', link: '/projects'}}/>

@@ -25,6 +25,7 @@ import QuantumXylophone from '../projects/QuantumXylophone';
 import Antibody from '../projects/Antibody';
 import Blocks from '../projects/Blocks';
 import classNames from 'classnames';
+import {PROJECTS_IMAGE} from '../../services/imagePreloadService';
 
 const tags = {
     favorite: 'Favorites',
@@ -67,7 +68,7 @@ export default function ProjectsPage() {
 
     return (
         <div>
-            <div className="bg-img" style={{backgroundImage: 'url(img/abstract.jpg)'}}>
+            <div className="bg-img" style={{backgroundImage: `url(${PROJECTS_IMAGE})`}}>
                 <Pivot
                     title={['Timeline', 'Portfolio']} name caret background={'#0003'}
                     left={{name: 'Skills', link: '/skills'}} right={{name: 'Contact', link: '/contact'}}/>

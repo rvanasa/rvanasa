@@ -20,6 +20,7 @@ import {
 } from 'react-icons/fa';
 import Sticky from 'react-stickynode';
 import Navigation from '../Navigation';
+import {STORY_IMAGE} from '../../services/imagePreloadService';
 
 const story = [{
     name: 'Childhood',
@@ -96,7 +97,7 @@ const story = [{
 
 export default function StoryPage() {
     return (
-        <div className="bg-img" style={{backgroundImage: 'url(img/stairs.jpg)'}}>
+        <div className="bg-img" style={{backgroundImage: `url(${STORY_IMAGE})`}}>
             <Pivot
                 title={['A', 'Story']} name caret background={'#0003'}
                 left={{name: 'Home', link: '/'}} right={{name: 'Skills', link: '/skills'}}/>
