@@ -20,7 +20,7 @@ import {
 } from 'react-icons/fa';
 import Sticky from 'react-stickynode';
 import Navigation from '../Navigation';
-import {STORY_IMAGE} from '../../services/imagePreloadService';
+import {BABY_IMAGE, STORY_IMAGE} from '../../services/imagePreloadService';
 
 const story = [{
     name: 'Childhood',
@@ -111,7 +111,7 @@ export default function StoryPage() {
                     </div>
                     <div
                         className="flex-grow-1"
-                        style={{background: 'url(img/baby.jpg) center 20%', backgroundSize: 'cover'}}/>
+                        style={{background: `url(${BABY_IMAGE}) center 20%`, backgroundSize: 'cover'}}/>
                 </div>
             </Sticky>
             <div style={{opacity: .95}}>
