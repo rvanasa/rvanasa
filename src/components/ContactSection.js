@@ -38,7 +38,9 @@ export default function ContactSection() {
                 <hr/>
                 <h1 className="text-thin text-light py-2 mb-0">Ryan Vandersmith</h1>
                 <div className="h4 text-success mb-4">
-                    ryanvandersmith@gmail.com
+                    <a href="mailto:ryanvandersmith@gmail.com" target="_blank">
+                        ryanvandersmith@gmail.com
+                    </a>
                 </div>
                 <div className="container">
                     {media.map(m => (
