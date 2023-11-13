@@ -1,11 +1,11 @@
 import React from 'react';
 import {HashRouter, Route, Switch} from 'react-router-dom';
-import HomePage from './page/HomePage';
-import ProjectPage from './page/ProjectsPage';
-import StoryPage from './page/StoryPage';
-import SkillsPage from './page/SkillsPage';
-import ScrollToTop from './util/ScrollToTop';
-import ContactPage from './page/ContactPage';
+import HomePage from './pages/HomePage';
+import ProjectPage from './pages/ProjectsPage';
+import StoryPage from './pages/StoryPage';
+import SkillsPage from './pages/SkillsPage';
+import ContactPage from './pages/ContactPage';
+import ScrollToTop from './utils/ScrollToTop';
 
 import './App.scss';
 
