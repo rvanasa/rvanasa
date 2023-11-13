@@ -18,6 +18,7 @@ export default function HomePage() {
     >
       <Pivot
         title={['Ryan', 'Vandersmith']}
+        subtitle={['R&D', 'Software', 'Engineer']}
         delay={3}
         caret
         left={{ name: 'Contact', link: '/contact' }}

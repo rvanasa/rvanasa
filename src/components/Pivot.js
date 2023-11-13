@@ -50,6 +50,20 @@ export default function Pivot(props) {
                     </span>
                   )))}
           </h1>
+          {props.subtitle && (
+            <h2 className="display-5">
+              {typeof props.subtitle === 'string'
+                ? props.subtitle
+                : props.subtitle.map((part, i) => (
+                    <span
+                      key={part}
+                      className={`blur delay-${i * props.delay + 3}`}
+                    >
+                      {(i ? ' ' : '') + part}
+                    </span>
+                  ))}
+            </h2>
+          )}
           {props.name && (
             <h2>
               <span className="blur delay-4">Ryan </span>

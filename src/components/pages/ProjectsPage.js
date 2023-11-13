@@ -1,31 +1,33 @@
+import classNames from 'classnames';
 import React, { useState } from 'react';
-import ColdSpace from '../projects/ColdSpace';
-import Polymorph from '../projects/Polymorph';
-import RimCities from '../projects/RimCities';
-import Vekta from '../projects/Vekta';
-import Pure from '../projects/Pure';
-import FunQy from '../projects/FunQy';
-import Storytime from '../projects/Storytime';
-import Skiing from '../projects/Skiing';
-import Redcoats from '../projects/Redcoats';
-import SIO from '../projects/SIO';
-import FastCode from '../projects/FastCode';
-import Outstrung from '../projects/Outstrung';
-import DeltaFund from '../projects/DeltaFund';
-import FurryFriends from '../projects/FurryFriends';
-import Pivot from '../Pivot';
-import WebStar from '../projects/WebStar';
-import Plexa from '../projects/Plexa';
-import Fungi from '../projects/Fungi';
+import { PROJECTS_IMAGE } from '../../services/imagePreloadService';
 import Navigation from '../Navigation';
-import ElementalX from '../projects/ElementalX';
-import TimeWinder from '../projects/TimeWinder';
-import EliteNavigator from '../projects/EliteNavigator';
-import QuantumXylophone from '../projects/QuantumXylophone';
+import Pivot from '../Pivot';
 import Antibody from '../projects/Antibody';
 import Blocks from '../projects/Blocks';
-import classNames from 'classnames';
-import { PROJECTS_IMAGE } from '../../services/imagePreloadService';
+import ColdSpace from '../projects/ColdSpace';
+import DeltaFund from '../projects/DeltaFund';
+import ElementalX from '../projects/ElementalX';
+import EliteNavigator from '../projects/EliteNavigator';
+import FastCode from '../projects/FastCode';
+import FunQy from '../projects/FunQy';
+import Fungi from '../projects/Fungi';
+import FurryFriends from '../projects/FurryFriends';
+import Motoko from '../projects/Motoko';
+import Outstrung from '../projects/Outstrung';
+import PandasGPT from '../projects/PandasGPT';
+import Plexa from '../projects/Plexa';
+import Polymorph from '../projects/Polymorph';
+import Pure from '../projects/Pure';
+import QuantumXylophone from '../projects/QuantumXylophone';
+import Redcoats from '../projects/Redcoats';
+import RimCities from '../projects/RimCities';
+import SIO from '../projects/SIO';
+import Skiing from '../projects/Skiing';
+import Storytime from '../projects/Storytime';
+import TimeWinder from '../projects/TimeWinder';
+import Vekta from '../projects/Vekta';
+import WebStar from '../projects/WebStar';
 
 const tags = {
   favorite: 'Favorites',
@@ -38,6 +40,8 @@ const tags = {
 };
 
 const projects = [
+  [PandasGPT, [tags.favorite, tags.research]],
+  [Motoko, [tags.favorite, tags.website]],
   [Blocks, [tags.favorite, tags.website]],
   [QuantumXylophone, []],
   [ElementalX, [tags.game]],
