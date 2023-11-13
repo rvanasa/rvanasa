@@ -2,40 +2,46 @@ import React from 'react';
 
 import Background from '../Background';
 import Time from '../Time';
-import {ListGroup} from 'react-bootstrap';
+import { ListGroup } from 'react-bootstrap';
 import LinkItem from '../LinkItem';
-import {FaGithub, FaKaggle, FaMedium} from 'react-icons/fa';
+import { FaGithub, FaKaggle, FaMedium } from 'react-icons/fa';
 
 export default function Antibody(props) {
-    return (
-        <>
-            <Time month="June" year="2020"/>
-            <Background img="img/projects/antibody.jpg"
-                        heading={<>
-                        <h2 className="display-4 text-center mt-4">Deep-Antibody</h2>
-                        <h3 className="text-center">Open-source mAb design resources.</h3>
-                        <hr/>
-                        <div className="container pt-5" style={{maxWidth: '60em'}}>
-                            <ListGroup variant="flush">
-                                <LinkItem
-                                    url="https://www.kaggle.com/rvanasa/monoclonal-antibodies"
-                                    icon={<FaKaggle/>}>
-                                    Kaggle Dataset
-                                </LinkItem>
-                                <LinkItem
-                                    url="https://github.com/rvanasa/deep-antibody"
-                                    icon={<FaGithub/>}>
-                                    Research Notebooks
-                                </LinkItem>
-                                <LinkItem
-                                    url="https://ryanvandersmith.medium.com/monoclonal-antibodies-explained-the-first-treatment-for-covid-19-ce8485c23da1"
-                                    icon={<FaMedium/>}>
-                                    Background Information
-                                </LinkItem>
-                            </ListGroup>
-                        </div>
-                    </>}>
-            </Background>
-        </>
-    );
+  return (
+    <>
+      <Time month="June" year="2020" />
+      <Background
+        img="img/projects/antibody.jpg"
+        heading={
+          <>
+            <h2 className="display-4 text-center mt-4">Deep-Antibody</h2>
+            <h3 className="text-center">Open-source mAb design resources.</h3>
+            <hr />
+            <div className="container pt-5" style={{ maxWidth: '60em' }}>
+              <ListGroup variant="flush">
+                <LinkItem
+                  url="https://www.kaggle.com/rvanasa/monoclonal-antibodies"
+                  icon={<FaKaggle />}
+                >
+                  Kaggle Dataset
+                </LinkItem>
+                <LinkItem
+                  url="https://github.com/rvanasa/deep-antibody"
+                  icon={<FaGithub />}
+                >
+                  Research Notebooks
+                </LinkItem>
+                <LinkItem
+                  url="https://ryanvandersmith.medium.com/monoclonal-antibodies-explained-the-first-treatment-for-covid-19-ce8485c23da1"
+                  icon={<FaMedium />}
+                >
+                  Background Information
+                </LinkItem>
+              </ListGroup>
+            </div>
+          </>
+        }
+      ></Background>
+    </>
+  );
 }

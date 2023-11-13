@@ -1,18 +1,15 @@
-
 .skill {
-
   h5:hover:not(:active) {
-    opacity: .7 !important;
+    opacity: 0.7 !important;
   }
 
   h5:active {
-    opacity: .6 !important;
+    opacity: 0.6 !important;
   }
-
 }
 
 .skill-checkout {
-  transition: .3s ease-in-out transform;
+  transition: 0.3s ease-in-out transform;
 }
 
 .skill-checkout:not(.enabled) {

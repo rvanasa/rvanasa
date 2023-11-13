@@ -1,16 +1,21 @@
 @import '~bootswatch/dist/darkly/variables';
-@import "mixins/variables";
+@import 'mixins/variables';
 @import '~bootstrap/scss/bootstrap';
 @import '~bootswatch/dist/darkly/bootswatch';
 
-@import "mixins/scrollbar";
-@import "mixins/blur";
+@import 'mixins/scrollbar';
+@import 'mixins/blur';
 
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   cursor: inherit;
 }
 
@@ -22,12 +27,13 @@ h3 {
   letter-spacing: 2px;
 }
 
-h4, h5 {
+h4,
+h5 {
   font-weight: normal;
 }
 
 hr {
-  border-color: rgba(255, 255, 255, .3) !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
 }
 
 a {
@@ -37,8 +43,8 @@ a {
 .list-group {
   .list-group-item {
     padding: 1.25em;
-    background: rgba(255, 255, 255, .1);
-    border-color: rgba(255, 255, 255, .3);
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.3);
   }
 }
 
@@ -48,17 +54,17 @@ a {
 
 .clickable {
   cursor: pointer;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
   transition-property: color, background, opacity;
   user-select: none;
 }
 
 .clickable:hover {
-  transition: .08s ease-out;
+  transition: 0.08s ease-out;
   transform: scaleX(1.05);
 }
 
 ::selection {
-  background: #000A;
-  color: #FFF;
+  background: #000a;
+  color: #fff;
 }
