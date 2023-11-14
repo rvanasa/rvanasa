@@ -1,9 +1,8 @@
 import React from 'react';
-import Pivot from '../Pivot';
 import { ListGroup, ListGroupItem } from 'react-bootstrap';
 import {
   FaBroadcastTower,
-  FaChartArea,
+  FaChartPie,
   FaChild,
   FaCode,
   FaCoffee,
@@ -19,8 +18,9 @@ import {
   FaUsers,
 } from 'react-icons/fa';
 import Sticky from 'react-stickynode';
-import Navigation from '../Navigation';
 import { BABY_IMAGE, STORY_IMAGE } from '../../services/imagePreloadService';
+import Navigation from '../Navigation';
+import Pivot from '../Pivot';
 
 const story = [
   {
@@ -65,6 +65,10 @@ const story = [
     items: [
       {
         icon: FaStar,
+        text: '<b>Now</b> an R&D software engineer (programming languages)',
+      },
+      {
+        icon: FaStar,
         text: '<b>6 years</b> as a freelance consultant (full-stack web development)',
       },
       {
@@ -94,23 +98,23 @@ const story = [
       },
       {
         icon: FaGithub,
-        iconClass: 'text-info',
+        iconClass: 'text-muted',
         text: 'Agile & modern software engineering',
         footnote:
           'Lean development, Git, continuous integration, release management, virtualization',
       },
       {
-        icon: FaChartArea,
-        iconClass: 'text-muted',
-        text: 'Business process <b>design</b> & <b>optimization</b>',
-        footnote: 'Technical background with entrepreneurial perspective',
+        icon: FaChartPie,
+        iconClass: 'text-info',
+        text: 'Programming language tools and UX research',
+        footnote: 'R&D background with entrepreneurial perspective',
       },
       {
         icon: FaCode,
         iconClass: 'text-warning',
         text: 'Modern <b>multi-paradigm</b> languages & frameworks',
         footnote:
-          'Strong background in Rust and high-performance systems programming',
+          'Full-stack development with TypeScript, Rust, OCaml, and Python',
       },
       {
         icon: FaSlack,
