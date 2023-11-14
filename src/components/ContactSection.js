@@ -53,11 +53,13 @@ export default function ContactSection() {
       <div className="text-center px-5">
         <hr />
         <h1 className="text-thin text-light py-2 mb-0">Ryan Vandersmith</h1>
-        <div className="h4 text-success mb-4">
+        <div className="h4 mb-4">
           <a
             href="mailto:ryanvandersmith@gmail.com"
             rel="noreferrer"
             target="_blank"
+            className="text-white"
+            style={{ opacity: 0.9 }}
           >
             ryanvandersmith@gmail.com
           </a>
