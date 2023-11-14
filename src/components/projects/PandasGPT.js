@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { ListGroup } from 'react-bootstrap';
-import { FaMedium, FaPython, FaStickyNote } from 'react-icons/fa';
+import { FaMedium, FaPython, FaThList } from 'react-icons/fa';
 import Background from '../Background';
 import LinkItem from '../LinkItem';
 import Time from '../Time';
@@ -33,7 +33,7 @@ export default function PandasGPT(props) {
                 </LinkItem>
                 <LinkItem
                   url="https://colab.research.google.com/github/rvanasa/pandas-gpt/blob/main/notebooks/pandas_gpt_demo.ipynb"
-                  icon={<FaStickyNote />}
+                  icon={<FaThList />}
                 >
                   Examples
                 </LinkItem>

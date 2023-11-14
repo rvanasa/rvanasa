@@ -23,9 +23,9 @@ export default function Motoko(props) {
           <>
             <h2 className="display-4 text-center mt-4">Motoko</h2>
             <h3 className="text-center">
-              Developer tools for a
+              Tools for a modern
               <br />
-              modern smart contract language.
+              smart contract language.
             </h3>
             <h4
               className="text-center text-warning mt-4 py-2"

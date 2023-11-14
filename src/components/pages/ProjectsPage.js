@@ -10,6 +10,7 @@ import DeltaFund from '../projects/DeltaFund';
 import ElementalX from '../projects/ElementalX';
 import EliteNavigator from '../projects/EliteNavigator';
 import FastCode from '../projects/FastCode';
+import Feedback from '../projects/Feedback';
 import FunQy from '../projects/FunQy';
 import Fungi from '../projects/Fungi';
 import FurryFriends from '../projects/FurryFriends';
@@ -41,7 +42,8 @@ const tags = {
 
 const projects = [
   [PandasGPT, [tags.favorite, tags.research]],
-  [Motoko, [tags.favorite, tags.website]],
+  [Feedback, [tags.website]],
+  [Motoko, [tags.favorite]],
   [Blocks, [tags.favorite, tags.website]],
   [QuantumXylophone, []],
   [ElementalX, [tags.game]],
@@ -64,7 +66,7 @@ const projects = [
   [SIO, [tags.favorite, tags.website, tags.competition]],
   [WebStar, [tags.favorite, tags.business, tags.website]],
   [Outstrung, [tags.competition, tags.game]],
-  [FurryFriends, [tags.favorite, tags.competition]],
+  [FurryFriends, [tags.competition]],
 ];
 
 export default function ProjectsPage() {
