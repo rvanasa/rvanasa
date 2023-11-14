@@ -235,7 +235,7 @@ const skills = [
             ],
           },
           {
-            name: 'AI & Natural Language Processing',
+            name: 'AI & Natural Language',
             parts: [
               {
                 name: 'Large language models (ChatGPT, Llama 2)',
@@ -255,7 +255,7 @@ const skills = [
             ],
           },
           {
-            name: 'Machine Learning & Data Science',
+            name: 'ML & Data Science',
             toggle: true,
             parts: [
               {
