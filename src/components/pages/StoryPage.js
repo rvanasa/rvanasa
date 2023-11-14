@@ -12,6 +12,7 @@ import {
   FaLanguage,
   FaMap,
   FaMobileAlt,
+  FaProjectDiagram,
   FaSlack,
   FaStar,
   FaSuitcase,
@@ -64,7 +65,7 @@ const story = [
     style: 'bg-success text-white',
     items: [
       {
-        icon: FaStar,
+        icon: FaProjectDiagram,
         text: '<b>Now</b> an R&D software engineer (programming languages)',
       },
       {
