@@ -14,6 +14,7 @@ import {
   FaGraduationCap,
   FaHardHat,
   FaHtml5,
+  FaInfinity,
   FaMedal,
   FaMobileAlt,
   FaMoneyBillAlt,
@@ -400,6 +401,58 @@ const skills = [
     name: 'Work Experience',
     icon: FaRegBuilding,
     parts: [
+      {
+        name: 'DFINITY Foundation',
+        icon: FaInfinity,
+        toggle: true,
+        parts: [
+          {
+            name: 'Engineering Lead',
+            toggle: true,
+            parts: [
+              {
+                name: 'Ethereum blockchain integration',
+              },
+              {
+                name: 'Motoko: VS Code extension',
+              },
+              {
+                name: 'Motoko: formatter',
+              },
+              {
+                name: 'Motoko: embed service',
+              },
+              {
+                name: 'Motoko: live-reload dev server',
+              },
+              {
+                name: 'Motoko: Node.js and browser integrations',
+              },
+            ],
+          },
+          {
+            name: 'Major Contributions',
+            toggle: true,
+            parts: [
+              {
+                name: 'AI compute marketplace (MVP frontend)',
+              },
+              {
+                name: 'Developer feedback board (frontend)',
+              },
+              {
+                name: 'Motoko: online playground',
+              },
+              {
+                name: 'Generative UX research',
+              },
+              {
+                name: 'Community developer grant mentorship',
+              },
+            ],
+          },
+        ],
+      },
       {
         name: 'Freelance Consulting',
         icon: FaClipboard,
