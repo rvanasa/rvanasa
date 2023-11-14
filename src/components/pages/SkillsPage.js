@@ -241,7 +241,7 @@ const skills = [
                 name: 'Large language models (ChatGPT, Llama 2)',
               },
               {
-                name: 'Huggingface',
+                name: 'Sentence Transformers',
               },
               {
                 name: 'NLTK',
