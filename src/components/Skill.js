@@ -14,6 +14,9 @@ function Skill(props) {
   }
 
   function onClick(e) {
+    if (e.button !== 0) {
+      return;
+    }
     e.stopPropagation();
 
     toggled = !toggled;

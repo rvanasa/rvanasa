@@ -78,7 +78,7 @@ const skills = [
                 name: 'Bootstrap',
               },
               {
-                name: 'Emotion / twin.macro',
+                name: 'Emotion / Twin.macro',
               },
               {
                 name: 'Styled-Components',

@@ -7,8 +7,7 @@ import {
   FaLightbulb,
   FaNodeJs,
   FaPlug,
-  FaProjectDiagram,
-  FaRecycle,
+  FaRecycle
 } from 'react-icons/fa';
 import Background from '../Background';
 import LinkItem from '../LinkItem';
@@ -55,12 +54,12 @@ export default function Motoko(props) {
                 >
                   Formatter
                 </LinkItem>
-                <LinkItem
+                {/* <LinkItem
                   url="https://levelup.gitconnected.com/how-we-created-blocks-an-online-drag-and-drop-smart-contract-editor-fe23eff4d933"
                   icon={<FaProjectDiagram />}
                 >
                   Low-Code Editor
-                </LinkItem>
+                </LinkItem> */}
                 <LinkItem url="https://embed.motoko.org/" icon={<FaCode />}>
                   Embed Service
                 </LinkItem>
