@@ -133,7 +133,7 @@ export default function StoryPage() {
         left={{ name: 'Home', link: '/' }}
         right={{ name: 'Skills', link: '/skills' }}
       />
-      <div className="divider bg-info" />
+      <div className="divider bg-success" />
       <Sticky>
         <div className="d-flex flex-column" style={{ height: '100vh' }}>
           <div className="py-4" style={{ background: '#000B' }}>

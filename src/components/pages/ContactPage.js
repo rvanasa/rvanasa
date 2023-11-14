@@ -17,7 +17,7 @@ export default function ContactPage() {
         left={{ name: 'Projects', link: '/projects' }}
         right={{ name: 'Home', link: '/' }}
       />
-      <div className="divider bg-success" />
+      <div className="divider bg-primary" />
       <div style={{ background: '#000A' }}>
         <ContactSection />
       </div>
