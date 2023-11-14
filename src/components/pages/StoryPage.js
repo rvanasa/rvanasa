@@ -65,11 +65,11 @@ const story = [
     style: 'bg-success text-white',
     items: [
       {
-        icon: FaProjectDiagram,
+        icon: FaStar,
         text: '<b>Now</b> an R&D software engineer (programming languages)',
       },
       {
-        icon: FaStar,
+        icon: FaProjectDiagram,
         text: '<b>6 years</b> as a freelance consultant (full-stack web development)',
       },
       {
