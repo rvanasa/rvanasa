@@ -55,10 +55,10 @@ const skills = [
             name: 'Frameworks & Tools',
             parts: [
               {
-                name: 'React',
+                name: 'Vite',
               },
               {
-                name: 'Gatsby',
+                name: 'React',
               },
               {
                 name: 'AngularJS',
@@ -72,13 +72,13 @@ const skills = [
             name: 'Layout & Style',
             parts: [
               {
-                name: 'Bootstrap',
-              },
-              {
                 name: 'Tailwind',
               },
               {
-                name: 'Material UI',
+                name: 'Bootstrap',
+              },
+              {
+                name: 'Emotion / twin.macro',
               },
               {
                 name: 'Styled-Components',
@@ -95,13 +95,13 @@ const skills = [
                 name: 'TypeScript',
               },
               {
-                name: 'WebAssembly (Rust)',
-              },
-              {
-                name: 'WebRTC',
+                name: 'WebAssembly (Rust, Motoko)',
               },
               {
                 name: 'GraphQL',
+              },
+              {
+                name: 'WebRTC',
               },
             ],
           },
@@ -147,7 +147,7 @@ const skills = [
             name: 'Integrations',
             parts: [
               {
-                name: 'Google APIs',
+                name: 'Google Cloud APIs',
               },
               {
                 name: 'Google Analytics',
@@ -167,7 +167,7 @@ const skills = [
                 name: 'Jest',
               },
               {
-                name: 'Mocha',
+                name: 'Cypress',
               },
             ],
           },
@@ -199,10 +199,10 @@ const skills = [
                 name: 'NumPy / SciPy',
               },
               {
-                name: 'Pandas / Modin',
+                name: 'Pandas / RAPIDS',
               },
               {
-                name: 'Cython / Numba',
+                name: 'JAX / Numba',
               },
             ],
           },
@@ -227,16 +227,22 @@ const skills = [
                 name: 'Airflow',
               },
               {
-                name: 'Jupyter',
+                name: 'Streamlit',
               },
               {
-                name: 'Anaconda',
+                name: 'Jupyter',
               },
             ],
           },
           {
-            name: 'Natural Language Processing',
+            name: 'AI & Natural Language Processing',
             parts: [
+              {
+                name: 'Large language models (ChatGPT, Llama 2)',
+              },
+              {
+                name: 'Huggingface',
+              },
               {
                 name: 'NLTK',
               },
@@ -249,58 +255,56 @@ const skills = [
             ],
           },
           {
-            name: 'Machine Learning',
+            name: 'Machine Learning & Data Science',
+            toggle: true,
             parts: [
               {
-                name: 'Libraries',
-                parts: [
-                  {
-                    name: 'NVIDIA RAPIDS',
-                  },
-                  {
-                    name: 'Transformers',
-                  },
-                  {
-                    name: 'Keras',
-                  },
-                  {
-                    name: 'PyTorch',
-                  },
-                ],
+                name: 'PyCaret',
               },
               {
-                name: 'Integrations',
-                parts: [
-                  {
-                    name: 'GPT-3, InstructGPT',
-                  },
-                  {
-                    name: 'Real-ESRGAN',
-                  },
-                  {
-                    name: 'Latent Diffusion',
-                  },
-                  {
-                    name: 'BERT',
-                  },
-                ],
+                name: 'Scikit-Learn',
+              },
+              {
+                name: 'Keras',
+              },
+              {
+                name: 'PyTorch',
+              },
+              {
+                name: 'Bambi',
               },
             ],
           },
           {
-            name: 'Misc.',
+            name: 'Natural Sciences',
+            toggle: true,
             parts: [
               {
-                name: 'Scrapy',
+                name: 'SHARPpy',
+              },
+              {
+                name: 'MetPy',
               },
               {
                 name: 'Astropy',
               },
               {
-                name: 'Biopython',
+                name: 'Lightkurve',
               },
               {
-                name: 'Streamlit',
+                name: 'Biopython',
+              },
+            ],
+          },
+          {
+            name: 'Misc.',
+            toggle: true,
+            parts: [
+              {
+                name: 'Scrapy',
+              },
+              {
+                name: 'Flask',
               },
             ],
           },
