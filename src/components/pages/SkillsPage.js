@@ -437,7 +437,13 @@ const skills = [
                 ],
               },
               {
-                name: 'Ethereum integration',
+                name: 'Ethereum blockchain integration',
+              },
+              {
+                name: 'Developer feedback board (frontend)',
+              },
+              {
+                name: 'AI compute marketplace (MVP frontend)',
               },
             ],
           },
@@ -445,19 +451,13 @@ const skills = [
             name: 'Major Contributor',
             parts: [
               {
-                name: 'AI compute marketplace (MVP frontend)',
-              },
-              {
-                name: 'Developer feedback board (frontend)',
-              },
-              {
-                name: 'Motoko: online playground',
+                name: 'Motoko: online compiler playground',
               },
               {
                 name: 'Generative UX research',
               },
               {
-                name: 'Community developer grant mentorship',
+                name: 'Community developer grant mentoring',
               },
             ],
           },
