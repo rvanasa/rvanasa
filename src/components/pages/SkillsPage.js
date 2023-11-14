@@ -407,11 +407,10 @@ const skills = [
         toggle: true,
         parts: [
           {
-            name: 'Engineering Lead',
-            toggle: true,
+            name: 'Lead Engineer',
             parts: [
               {
-                name: 'Ethereum blockchain integration',
+                name: 'Ethereum integration',
               },
               {
                 name: 'Motoko: VS Code extension',
@@ -431,8 +430,7 @@ const skills = [
             ],
           },
           {
-            name: 'Major Contributions',
-            toggle: true,
+            name: 'Major Contributor',
             parts: [
               {
                 name: 'AI compute marketplace (MVP frontend)',
