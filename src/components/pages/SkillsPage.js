@@ -410,22 +410,34 @@ const skills = [
             name: 'Lead Engineer',
             parts: [
               {
+                name: 'Motoko programming language tools',
+                toggle: true,
+                parts: [
+                  {
+                    name: 'VS Code extension',
+                  },
+                  {
+                    name: 'Formatter',
+                  },
+                  {
+                    name: 'Embed service',
+                  },
+                  {
+                    name: 'Live-reload dev server',
+                  },
+                  {
+                    name: 'Unit testing system',
+                  },
+                  {
+                    name: 'Documentation generator',
+                  },
+                  {
+                    name: 'Node.js and browser integrations',
+                  },
+                ],
+              },
+              {
                 name: 'Ethereum integration',
-              },
-              {
-                name: 'Motoko: VS Code extension',
-              },
-              {
-                name: 'Motoko: formatter',
-              },
-              {
-                name: 'Motoko: embed service',
-              },
-              {
-                name: 'Motoko: live-reload dev server',
-              },
-              {
-                name: 'Motoko: Node.js and browser integrations',
               },
             ],
           },

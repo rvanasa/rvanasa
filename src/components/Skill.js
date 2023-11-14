@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import './Skill.scss';
 import { FaCaretRight, FaFileAlt, FaFolder } from 'react-icons/fa';
+import { isMobile } from 'react-device-detect';
 
 function Skill(props) {
   let { tree, parent } = props;
@@ -27,7 +28,7 @@ function Skill(props) {
     return (
       <div>
         {tree.map((part, i) => (
-          <div key={i} style={{ paddingLeft: '2em' }}>
+          <div key={i} style={{ paddingLeft: isMobile ? '1rem' : '2rem' }}>
             <div className="px-2">
               <Skill tree={part} parent={parent} onToggle={props.onToggle} />
             </div>
@@ -52,14 +53,14 @@ function Skill(props) {
         onMouseDown={onClick}
       >
         <span
-          className={`my-2 my-lg-0 ps-2 pe-3 mx-auto mx-lg-0 ${
+          className={`my-2 my-lg-0 ps-2 pe-3 mx-auto mx-lg-0 d-flex ${
             tree.iconClass
           } ${toggled && !tree.parts ? 'text-info' : 'text-light'}`}
           style={{ transform: toggled && !tree.parts && `scale(1.2)` }}
         >
           {tree.parts && (
             <FaCaretRight
-              className="mb-1 me-1"
+              className="me-1"
               style={{
                 marginLeft: '-1em',
                 opacity: 0.5,
@@ -69,7 +70,6 @@ function Skill(props) {
           )}
           {React.createElement(
             tree.icon || (tree.parts ? FaFolder : FaFileAlt),
-            { className: 'mb-1' },
           )}
         </span>
         <span className="flex-grow-1">{tree.name}</span>
