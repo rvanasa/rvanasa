@@ -57,7 +57,7 @@ const projects = [
   [Redcoats, [tags.game]],
   [Pure, [tags.website]],
   [FunQy, [tags.favorite, tags.research]],
-  [Fungi, [tags.favorite, tags.competition, tags.research]],
+  [Fungi, [tags.website, tags.research]],
   [Plexa, [tags.favorite, tags.business]],
   [Storytime, [tags.game]],
   [Skiing, [tags.favorite, tags.game]],
