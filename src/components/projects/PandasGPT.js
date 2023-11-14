@@ -15,7 +15,9 @@ export default function PandasGPT(props) {
         heading={
           <>
             <div className="mx-2 py-4" style={{ background: '#0006' }}>
-              <h2 className="display-4 text-center mt-4">Pandas-GPT</h2>
+              <h2 className="display-4 text-center mt-4">
+                Pandas<span style={{ opacity: 0.5 }}>-</span>GPT
+              </h2>
               <h3 className="text-center">Data science with LLMs.</h3>
             </div>
             <hr />
