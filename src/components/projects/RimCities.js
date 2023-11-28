@@ -20,7 +20,7 @@ export default function RimCities(props) {
               className="text-center text-warning mt-4 py-2"
               style={{ background: '#0005' }}
             >
-              Over 130,000 subscribers on Steam
+              Over 160,000 subscribers on Steam
             </h4>
             <hr />
             <div className="container pt-5" style={{ maxWidth: '60em' }}>
