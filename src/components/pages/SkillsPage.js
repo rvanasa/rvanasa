@@ -441,7 +441,7 @@ const skills = [
                 ],
               },
               {
-                name: 'Ethereum blockchain integration',
+                name: 'EVM JSON-RPC integrations',
               },
               {
                 name: 'Developer feedback board (frontend)',
