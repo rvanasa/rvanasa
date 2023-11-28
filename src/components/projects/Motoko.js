@@ -60,7 +60,7 @@ export default function Motoko(props) {
                 >
                   Low-Code Editor
                 </LinkItem> */}
-                <LinkItem url="https://embed.motoko.org/" icon={<FaCode />}>
+                <LinkItem url="https://levelup.gitconnected.com/embed-motoko-interactive-smart-contracts-in-your-medium-story-or-blog-post-58c85719eee6" icon={<FaCode />}>
                   Embed Service
                 </LinkItem>
                 <LinkItem
