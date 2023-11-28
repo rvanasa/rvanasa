@@ -411,59 +411,46 @@ const skills = [
         toggle: true,
         parts: [
           {
-            name: 'Lead Engineer',
+            name: 'Lead engineer: Motoko language tooling',
+            toggle: true,
             parts: [
               {
-                name: 'Motoko programming language tools',
-                toggle: true,
-                parts: [
-                  {
-                    name: 'VS Code extension',
-                  },
-                  {
-                    name: 'Formatter',
-                  },
-                  {
-                    name: 'Embed service',
-                  },
-                  {
-                    name: 'Live-reload dev server',
-                  },
-                  {
-                    name: 'Unit testing system',
-                  },
-                  {
-                    name: 'Documentation generator',
-                  },
-                  {
-                    name: 'Node.js and browser integrations',
-                  },
-                ],
+                name: 'VS Code extension',
               },
               {
-                name: 'EVM JSON-RPC integrations',
+                name: 'Formatter',
               },
               {
-                name: 'Developer feedback board (frontend)',
+                name: 'Embed service',
               },
               {
-                name: 'AI compute marketplace (MVP frontend)',
+                name: 'Live-reload dev server',
+              },
+              {
+                name: 'Unit test runner',
+              },
+              {
+                name: 'Node.js and browser integrations',
               },
             ],
           },
           {
-            name: 'Major Contributor',
-            parts: [
-              {
-                name: 'Motoko: online compiler playground',
-              },
-              {
-                name: 'Generative UX research',
-              },
-              {
-                name: 'Community developer grant mentoring',
-              },
-            ],
+            name: 'Lead engineer: EVM JSON-RPC integrations',
+          },
+          {
+            name: 'Full stack: Developer feedback board (frontend)',
+          },
+          {
+            name: 'Full stack: online compiler playground',
+          },
+          {
+            name: 'Front end: AI compute marketplace (MVP frontend)',
+          },
+          {
+            name: 'UX research and ecosystem analysis',
+          },
+          {
+            name: 'Community developer grant mentoring',
           },
         ],
       },
