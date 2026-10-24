@@ -144,7 +144,7 @@ export default function HomePage({
             Ryan Vandersmith
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-200 sm:text-xl">
-            R&D software engineer building weather forecasting tools with 10+
+            R&D software engineer building weather forecasting tools with over 10
             years of full-stack development experience.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-6">
