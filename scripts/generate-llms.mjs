@@ -46,6 +46,12 @@ const generatedSections = [
   `## Contact\n\n${contactInfo.links.filter((link) => link.surfaces.includes("llms")).map((link) => `- ${link.label}: [${link.text}](${link.href})`).join("\n")}\n- ${contactInfo.location.label}: ${contactInfo.location.text}`,
 ].join("\n\n");
 
+const sitemapRoutes = ["/", ...pages.map((page) => `${page.route}/`)];
+const sitemapUrls = sitemapRoutes
+  .map((route) => `  <url><loc>${siteUrl}${route}</loc></url>`)
+  .join("\n");
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemapUrls}\n</urlset>\n`;
+
 const profileSections = [
   `# ${contactInfo.profile.name}`,
   `> ${contactInfo.profile.tagline}`,
@@ -54,3 +60,4 @@ const profileSections = [
 ].join("\n\n");
 
 fs.writeFileSync(path.join(publicDirectory, "llms.txt"), `${profileSections}\n\n${generatedSections}\n`);
+fs.writeFileSync(path.join(publicDirectory, "sitemap.xml"), sitemap);
