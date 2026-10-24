@@ -7,7 +7,7 @@ relatedRole: dfinity-foundation
 summary: A suite of tools that made the Motoko programming language easier to write, test, preview, and embed.
 ---
 
-Led development of programming language tooling for Motoko, the smart contract language of the Internet Computer. The tools connect editor workflows with browser and Node.js environments using TypeScript, Rust, and WebAssembly.
+I led the development of programming language tooling for Motoko, the smart contract language of the Internet Computer. The tools connect editor workflows with browser and Node.js environments using TypeScript, Rust, and WebAssembly.
 
 - **[VS Code extension](https://github.com/caffeinelabs/vscode-motoko):** type checking, IntelliSense, go to definition, hover docs, import organization, snippets, `dfx.json` validation, one-click temporary deployment, and Mops and Vessel package support. It works standalone without `dfx` on all major operating systems, has more than 85,000 installs, and has had 150+ releases.
 - **[Formatter](https://github.com/caffeinelabs/prettier-plugin-motoko) (`prettier-plugin-motoko`, `mo-fmt`):** a Prettier plugin and standalone CLI with import organization, used by 550+ projects.
