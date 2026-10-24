@@ -174,7 +174,7 @@ export default function HomePage({
               About
             </p>
             <h2 className="mt-2 text-3xl font-bold text-white sm:text-4xl">
-              Software engineering meets atmospheric science
+              Software engineering meets <span className="lg:block">atmospheric science</span>
             </h2>
             <p className="mt-5 max-w-3xl leading-8 text-slate-300">
               Growing up in Colorado, I became fascinated by how the atmosphere
