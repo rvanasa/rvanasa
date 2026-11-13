@@ -4,7 +4,7 @@
 
 **R&D software engineer building forecasting, visualization, and analysis tools for meteorology and atmospheric science.**
 
-📍 Amherst, Massachusetts &nbsp;·&nbsp; 🧑‍💻 10+ years of engineering &nbsp;·&nbsp; 🌩️ self-taught meteorology
+📍 Amherst, Massachusetts &nbsp;·&nbsp; 🧑‍💻 10+ years of engineering &nbsp;·&nbsp; 🌩️ Weather photography
 
 [Portfolio](https://www.ryanvandersmith.com/) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/ryanvandersmith) &nbsp;·&nbsp; [X](https://x.com/rvandersmith) &nbsp;·&nbsp; [Instagram](https://www.instagram.com/rvandersmith/) &nbsp;·&nbsp; [Bluesky](https://bsky.app/profile/ryanvandersmith.com)
 
